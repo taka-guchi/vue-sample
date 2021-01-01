@@ -1,5 +1,5 @@
 #app, #counter, #bind-attribute, #event-handling,
-#two-way-binding, #conditional-rendering, #list-rendering
+#two-way-binding, #conditional-rendering
 {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -9,7 +9,15 @@
   margin-top: 60px;
 }
 
-#list-rendering {
+#list-rendering, #todo-list-app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+#list-rendering, #todo-list-app {
   display: flex;
   align-items: center;
   flex-direction: column;
